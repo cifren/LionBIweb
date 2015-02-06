@@ -4,7 +4,10 @@
     "type": "project",
     "description": "The \"Symfony Standard Edition\" distribution",
     "autoload": {
-        "psr-0": { "": "src/", "SymfonyStandard": "app/" }
+        "psr-0": {
+            "": "src/",
+            "SymfonyStandard": "app/"
+        }
     },
     "require": {
         "php": ">=5.3.3",
@@ -19,7 +22,11 @@
         "sensio/framework-extra-bundle": "~3.0",
         "incenteev/composer-parameter-handler": "~2.0",
         
-        "earls/rhino-report-bundle": "dev-master"
+        "earls/lion-bi-bundle": "dev-master",
+        "earls/rhino-report-bundle": "dev-master",
+        "earls/oxpecker-data-bundle": "dev-master",
+        "earls/flamingo-command-queue-bundle": "dev-master",
+        "knplabs/etl": "0.1.*@dev"
     },
     "require-dev": {
         "sensio/generator-bundle": "~2.3"
@@ -63,6 +70,22 @@
         {
             "type": "vcs",
             "url": "https://github.com/cifren/LionBusinessIntelligence.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/earls/RhinoReport.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/earls/OxPeckerDataBundle.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/earls/OxPeckerData.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:earls/FlamingoCommandQueue.git"
         }
     ]
 }
