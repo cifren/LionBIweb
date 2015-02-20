@@ -1,0 +1,13 @@
+lionbi_dashboard_default:
+    pattern: /
+    defaults: 
+        route: lionbi_dashboard
+        _controller: FrameworkBundle:Redirect:redirect
+        permanent: true
+    
+lion_bi_routing:
+    resource: "@EarlsLionBiBundle/Resources/config/routing.yml"
+
+# app/config/routing.yml
+fos_js_routing:
+    resource: "@FOSJsRoutingBundle/Resources/config/routing/routing.xml"

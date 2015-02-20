@@ -26,7 +26,8 @@
         "earls/rhino-report-bundle": "dev-master",
         "earls/oxpecker-data-bundle": "dev-master",
         "earls/flamingo-command-queue-bundle": "dev-master",
-        "knplabs/etl": "0.1.*@dev"
+        "knplabs/etl": "0.1.*@dev",
+        "friendsofsymfony/jsrouting-bundle": "~1.1"
     },
     "require-dev": {
         "sensio/generator-bundle": "~2.3"
