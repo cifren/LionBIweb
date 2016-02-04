@@ -1,3 +1,9 @@
-app:
-    resource: "@AppBundle/Controller/"
-    type:     annotation
+lionbi_dashboard_default:
+    path: /
+    defaults: 
+        route: lionbi_dashboard
+        _controller: FrameworkBundle:Redirect:redirect
+        permanent: true
+    
+lion_bi_routing:
+    resource: "@EarlsLionBiBundle/Resources/config/routing.yml"

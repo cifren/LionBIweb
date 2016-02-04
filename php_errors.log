@@ -1,0 +1,8 @@
+[03-Feb-2016 17:04:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'symfony'' in /home/ubuntu/workspace/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:43
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(43): PDO->__construct('mysql:host=127....', 'root', NULL, Array)
+#1 /home/ubuntu/workspace/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOMySql/Driver.php(45): Doctrine\DBAL\Driver\PDOConnection->__construct('mysql:host=127....', 'root', NULL, Array)
+#2 /home/ubuntu/workspace/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(360): Doctrine\DBAL\Driver\PDOMySql\Driver->connect(Array, 'root', NULL, Array)
+#3 /home/ubuntu/workspace/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(429): Doctrine\DBAL\Connection->connect()
+#4 /home/ubuntu/workspace/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(389): Doctrine\DBAL\Connection->getDatabasePlatformVersion()
+#5 /home/ubuntu/workspace/vendor/doctrine/dbal/lib/Do in /home/ubuntu/workspace/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php on line 103

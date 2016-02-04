@@ -1,10 +1,10 @@
-/app/config/parameters.yml 
-/build/ 
+/app/config/parameters.yml
+/build/
 /php.ini
 /php_errors.logs
 /composer.lock
-/phpunit.xml 
-/var/* 
-!var/SymfonyRequirements.php 
+/phpunit.xml
+/var
+!var/SymfonyRequirements.php
 /vendor/
 /web/bundles/
