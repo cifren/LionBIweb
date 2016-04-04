@@ -1,7 +1,7 @@
 lionbi_dashboard_default:
     path: /
     defaults: 
-        route: lionbi_dashboard
+        route: lionbi_admin
         _controller: FrameworkBundle:Redirect:redirect
         permanent: true
     

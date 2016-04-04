@@ -24,11 +24,16 @@
         "symfony/assetic-bundle": "^2.7.1",
         
         "earls/lion-bi-bundle": "dev-master",
-        "earls/oxpecker-data-bundle": "dev-master"
+        "earls/oxpecker-data-bundle": "dev-master",
+        "earls/rhino-report-bundle": "dev-master",
+        "friendsofsymfony/rest-bundle": "^1.7",
+        "jms/serializer-bundle": "dev-master",
+        "lexik/form-filter-bundle": "v5.0.*"
     },
     "require-dev": {
         "sensio/generator-bundle": "^3.0",
-        "symfony/phpunit-bridge": "^2.7"
+        "symfony/phpunit-bridge": "^2.7",
+        "doctrine/doctrine-fixtures-bundle": "^2.3"
     },
     "scripts": {
         "post-install-cmd": [
@@ -75,6 +80,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/cifren/OxPeckerDataBundle.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/cifren/RhinoReport.git"
         }
     ]
 }
